@@ -1,0 +1,16 @@
+{
+  "name": "Weather App",
+  "short_name": "Weather",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#143d59",
+  "description": "Weather checkup app for practice",
+  "theme_color": "#143d59",
+  "icons": [
+    {
+      "src": "img/weather-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

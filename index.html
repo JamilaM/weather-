@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Weather App</title>
+	<link rel="manifest" href="manifest.json">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="Styles.css">
+
+</head>
+
+<body>
+ <header>
+   <div>
+   <h1>Check the weather</h1>
+   <form class="search">
+   <input type="text" autocomplete="off" placeholder="Enter Your Location?">
+   <button type="submit">Submit</button>
+   </form>
+   <span class="error"></span>
+   </div>
+ </header> 
+ 
+   
+<section class="info">
+   <div class="location">
+       <h2 class="city"></h2>
+       <p class="additional"></p>
+   </div>
+
+    <div class="weather-info">
+       <h3 class="temp"></h3>
+       <div class="icon"></div>
+       <p class="high-low"></p>
+    </div>
+</section>      
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>
