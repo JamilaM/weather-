@@ -47,7 +47,7 @@ input::placeholder {
 }
 
 
-button{
+header button{
    background-color: var(--yellow);
     color: var(--light);
     border: none;
@@ -125,4 +125,17 @@ section.info {
 
 .icon{
     filter:invert();   
+}
+
+@media screen and (max-width: 768px){
+    section.info{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 15px;
+    }
+    
+    header input, header button{
+        width: 80%;
+        margin: 5px;
+    }
+    
 }
